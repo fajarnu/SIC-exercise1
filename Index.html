@@ -1,41 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog Fajar Nugraha</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <nav>
-    <div class="wrapper">
-        <div class="welcome">Welcome to My Website!</div>
-        <div class="menu">
-            <ul>
-                <li><a href ="index.html">Home</a></li>
-                <li><a href ="about.html">About</a></li>
-                <li><a href ="works.html">Works</a></li>
-                <li><a href ="hobby.html">Hobby</a></li>
-                <li><a href ="https://id.wikipedia.org/wiki/Samsung_Electronics">Go another website</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<div class="wrap">
-    <div class="profile">
-      <img src="./Asset/Foto Profil.jfif"/>
-    </div>
-    <div class="kolom">
-      <h2>Fajar Nugraha</h2>
-      <p class="deskripsi">Whatever you are, be a good one / SMKN 1 Cimahi / Student</p>
-      <div class="sosmed">
-        <a href="https://instagram.com/fajarnu_"><img src="https://image.flaticon.com/icons/png/512/2111/2111463.png" alt="instagram"></a>
-        <a href="https://web.facebook.com/100014814283309"><img src="https://image.flaticon.com/icons/png/512/733/733547.png" alt="facebook"></a>
-        <a href="https://api.whatsapp.com/send?phone=+6287722556634"><img src="https://image.flaticon.com/icons/png/512/733/733585.png" alt="whatsapp"></a>
-        <a href="https://www.youtube.com/channel/UCsgTpqkW8asuIC-qiVWAsew"><img src="https://image.flaticon.com/icons/png/512/1384/1384060.png" alt="youtube"></a>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Fajar Nugraha</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="d-flex flex-wrap justify-content-start py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4">Welcome to My Website</span>
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="works.html" class="nav-link">Works</a></li>
+          <li class="nav-item"><a href="hobby.html" class="nav-link">Hobby</a></li>
+          <li class="nav-item"><a href="https://skilvul.com/" class="nav-link">Go Another Website</a></li>
+        </ul>
       </div>
+      </header>
     </div>
-</div>
-</body>
+  
+    <section class="py-5 text-center container">
+      <img src="./Asset/Foto Profil.jfif" style="width: 250px; border-radius: 50%;"/>
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Fajar Nugraha</h1>
+          <p class="lead text-muted">Whatever you are, be a good one / SMKN 1 Cimahi / Student</p>
+          <div class="sosmed">
+            <a href="https://instagram.com/fajarnu_"><img src="https://image.flaticon.com/icons/png/512/2111/2111463.png"  alt="instagram"></a>
+            <a href="https://web.facebook.com/100014814283309"><img src="https://image.flaticon.com/icons/png/512/733/733547.png" alt="facebook"></a>
+            <a href="https://api.whatsapp.com/send?phone=+6287722556634"><img src="https://image.flaticon.com/icons/png/512/733/733585.png" alt="whatsapp"></a>
+            <a href="https://www.youtube.com/channel/UCsgTpqkW8asuIC-qiVWAsew"><img src="https://image.flaticon.com/icons/png/512/1384/1384060.png" alt="youtube"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
